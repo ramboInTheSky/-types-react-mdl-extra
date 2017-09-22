@@ -1,0 +1,19 @@
+{
+  "name": "@types/react-mdl-extra",
+  "version": "1.0.0",
+  "description": "Types for react-mdl-extra",
+  "main": "",
+  "publishConfig": {
+    "registry": "https://nexus3.acadiasoft.net/repository/npm-internal/"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "Alessio Fimognari",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react-mdl": "^1.7.22",
+    "react": "^15.6.1",
+    "react-mdl": "^1.10.3"
+  },
+  "dependencies": {}
+}
