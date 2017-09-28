@@ -5,7 +5,7 @@
 import * as React from 'react'
 import { MDLHTMLAttributes,TextfieldProps,__MDLComponent } from 'react-mdl'
  export = __ReactMDLExtra;
-
+declare module 'react-mdl-extra'
 declare namespace __ReactMDLExtra {
 
     interface AutoCompleteProps extends TextfieldProps {
