@@ -58,5 +58,23 @@ declare namespace __ReactMDLExtra {
     }
 
     class MultiSelectField extends __MDLComponent<MultiSelectFieldProps>{}
+    
+    interface StepperProps extends MDLHTMLAttributes, React.DOMAttributes<Stepper> {
+        activeStep?: number,
+        children?: JSX.Element | JSX.Element[],
+        hideLastTitle?: boolean,
+        horizontal?: boolean,
+        onStepTitleClick?: (e:number)=>void
+    }
+
+    class Stepper extends __MDLComponent<StepperProps>{}
+    
+    interface StepProps extends MDLHTMLAttributes, React.DOMAttributes<Step> {
+        children?: JSX.Element | JSX.Element[],
+        onTitleClick?: (e:number)=>void,
+        title: string
+    }
+
+    class Step extends __MDLComponent<StepProps>{}
 
 }
